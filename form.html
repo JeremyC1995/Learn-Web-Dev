@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form exercise</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <h1>Register</h1>
+  <form action="">
+    <label for="">First Name:<input type="text" placeholder="John" name="first" id="" required></label>
+    <label for="">Last Name:<input type="text" placeholder="Smith" name="last" id="" required></label>
+    <div>
+      <label >Male<input type="radio" name="gender" id="male"></label>
+      <label >Female<input type="radio" name="gender" id="female"></label>
+      <label >Other<input type="radio" name="gender" id="other"></label>
+    </div>
+    <div>
+      <label for="">Email: 
+        <input type="email" name="email" id="" placeholder="your email" required>
+      </label>
+      <label for="">Password: 
+        <input type="password" name="password" id="" placeholder="your password" maxlength="10" minlength="5" >
+      </label>
+    </div>
+    <div>
+      <label for="">
+        Birthday: 
+        <select name="day" id="">
+            <option value="1" selected disabled>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+      </label>
+    </div>
+    <div>
+      <label for="">I agree to the terms and conditions <input type="checkbox" name="" id=""></label>
+    </div>
+    
+    <input type="submit" value="Submit">
+  </form> 
+</body>
+</html>

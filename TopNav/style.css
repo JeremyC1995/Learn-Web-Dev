@@ -1,0 +1,25 @@
+ol {
+  margin: 10px auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+span{
+  display: inline-block;
+  height: 2em;
+  vertical-align: top;
+  line-height: 2em;
+}
+.circle {
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+  border: 0px solid gray;
+  background-color: yellow;
+  border-radius: 50%;
+  text-align: center;
+}
